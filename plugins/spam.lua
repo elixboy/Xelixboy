@@ -4,9 +4,9 @@ function run(msg, matches)
 
   local tex = matches[1]
   local sps = matches[2]
-  local sp = '\n:|'
+  local sp = '\n\nfucked by elixboy\n\nfucked by elixboy'
   for i=1, tex, 1 do 
-      sp = '\n'..sps..'\n'..sp
+      sp = '  '..sps..'  '..sp
   end 
    return sp
 end
